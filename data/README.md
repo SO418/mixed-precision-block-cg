@@ -14,5 +14,5 @@ redacted; nothing else was edited.
 | `gpu_cost/` | `core/` gives the GPU cost table, `core_diagnostics/` the residual histories (seed 301), `scales/` the RHS scaling test, `calibrate/` the isolated BJAC calls. `environment_lock.txt` lists the Python packages. |
 | `rhs_perturbation/` | Iteration counts for the 20 perturbed right-hand sides (seeds 0-19, relative amplitude 1e-14). Timings came from concurrent runs and are not comparable. |
 
-The full CPU traces, certificates and validation files (about 1 GB uncompressed) are in the
-separate archive `bcg_data_full.tgz`, with the same layout.
+The full CPU traces, certificates and validation files (about 1 GB uncompressed) are in
+[`bcg_data_full.tgz`](https://github.com/SO418/mixed-precision-block-cg/releases/download/v1.0/bcg_data_full.tgz) (v1.0 release), with the same layout.

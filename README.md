@@ -140,4 +140,4 @@ come from an NVIDIA B300.
 
 [`data/`](data) holds the records behind the tables and figures, organized like the code; see
 [`data/README.md`](data/README.md). The full CPU traces (about 160 MB compressed) are
-distributed separately as `bcg_data_full.tgz`.
+attached to the [v1.0 release](https://github.com/SO418/mixed-precision-block-cg/releases/download/v1.0/bcg_data_full.tgz) as `bcg_data_full.tgz`.

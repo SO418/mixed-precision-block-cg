@@ -1,0 +1,27 @@
+{
+  "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "numpy": "2.2.6",
+  "cupy": "14.0.1",
+  "runtime": 13000,
+  "driver": 13000,
+  "platform": "Linux-6.6.0-102.007-x86_64-with-glibc2.35",
+  "gpu": "b'NVIDIA B300 SXM6 AC'",
+  "compute_capability": [
+    10,
+    3
+  ],
+  "source_sha256": {
+    "experiments_bound.py": "9cade8de39170fc7f9c5358bae445d0e6bb2e3ad21e7e1ae65e2b32543236126",
+    "native_backend.py": "37652831038211c3005a6ea76a6d26b6c5299c8ffc325f3b470d3088d5397743",
+    "numerics.py": "dd3ad14663fdb6b95c28bb18a98cd1836562ec8ca42a858339e725e800c0bd38",
+    "problems_bound.py": "3dfb250a586773aa08fef449cb2f1e9e0a28f2e72de6a3037a9329e904c0cb70",
+    "run_gpu.py": "306bfa43027570785b090a3caf5d0df21ab8c95c194a2806585146cae83a8911",
+    "self_test.py": "104f72cd22a97770e68606c7474c073c1dcbb28c23438c36acb9c528886827c4",
+    "solver.py": "dc20b4ef623cfa19bbad07b14a2d23dade82ad1bfa3d62dc9c325c9de9a0f8c1",
+    "summarize.py": "170456c4f06b2f0fbd2cc4a9d580c674a5187a52e81efc50ddcc68dbb3fd3022"
+  },
+  "native_target_operations": true,
+  "fp64_transport": true,
+  "strict_certificate": false,
+  "timing_is_performance_measurement": false
+}

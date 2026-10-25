@@ -1,0 +1,11 @@
+{
+  "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "numpy": "2.0.2",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "source_hashes": {
+    "qa/reinforcement/run_new_checks.py": "82239f3fb85cd2be2466f17289e6fcba9c900989ebb91fc0f67506dc8d505d86",
+    "qa/reinforcement/reference/verify_qr_bjac.py": "b615d062352c34f5241b97118d0040682636701edbd0a45961d7c4d4977d84bb",
+    "qa/reinforcement/reference/certify_budgets.py": "51d0711956dbc275a7c0dbe49072e68b6f444d4153f4d2eb476559baaeab20d6",
+    "qa/reinforcement/reference/formats.py": "c73244141691447fa9b1e77d871baf76cab08893e83e518d2414800bd0f3c603"
+  }
+}

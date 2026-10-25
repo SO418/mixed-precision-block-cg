@@ -1,0 +1,18 @@
+{
+  "groups": [
+    "A"
+  ],
+  "seed": 303,
+  "inside": "1/4",
+  "cross": "1/64",
+  "s": 4,
+  "correlation_exponent": null,
+  "scale_exponent": 0,
+  "precision": "fp64",
+  "n": 32,
+  "blocksize": 8,
+  "p": 2,
+  "t": 3,
+  "steps": 60,
+  "id": "acb2058ad99b"
+}

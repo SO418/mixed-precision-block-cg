@@ -1,0 +1,18 @@
+{
+  "groups": [
+    "smoke"
+  ],
+  "seed": 301,
+  "inside": "7/16",
+  "cross": "1/64",
+  "s": 2,
+  "correlation_exponent": null,
+  "scale_exponent": 0,
+  "precision": "fp16",
+  "n": 8,
+  "blocksize": 4,
+  "p": 2,
+  "t": 3,
+  "steps": 2,
+  "id": "dd28b8d0bb5c"
+}

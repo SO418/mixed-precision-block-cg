@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "device": "cuda",
+  "checks": [
+    "192 primitive envelopes vs exact rational arithmetic",
+    "FP16/FP32/BF16 subnormal preservation",
+    "exact manufactured solution; four call bounds vs rational polynomial; four outer trajectories"
+  ],
+  "strict_certificate": false
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "kind": "Const",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "local_scaled",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Const",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "switch",
+    "threshold": 0.0001,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Dis",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "fp16",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Const",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "fp64",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Const",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "call_scaled",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Dis",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "fp32",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Ani",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "fp16",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Dis",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "local_scaled",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Ani",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "call_scaled",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Ani",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "fp64",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Const",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "fp16",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Dis",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "switch",
+    "threshold": 0.0001,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Dis",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "call_scaled",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Ani",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "fp32",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Const",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "fp32",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Dis",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "fp64",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Ani",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "local_scaled",
+    "threshold": null,
+    "rhs_power2": 0
+  },
+  {
+    "kind": "Ani",
+    "seed": 301,
+    "t": 4,
+    "p": 2,
+    "method": "switch",
+    "threshold": 0.0001,
+    "rhs_power2": 0
+  }
+]

@@ -1,0 +1,310 @@
+{
+ "n": 6291456,
+ "tol": 1e-10,
+ "nb": 32,
+ "k": 2,
+ "t": 2,
+ "ordering": "as distributed (all R, then all E, then all I)",
+ "runs": [
+  {
+   "delta": 1e-14,
+   "seed": 0,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 24215,
+    "relres": 9.8936287133101e-11,
+    "sec": 154.86
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 27952,
+    "relres": 9.5200581519475e-11,
+    "sec": 118.29
+   },
+   "change_pct": 15.432583109642772
+  },
+  {
+   "delta": 1e-14,
+   "seed": 1,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 27040,
+    "relres": 9.095082941733277e-11,
+    "sec": 173.0
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 28643,
+    "relres": 7.471757388864576e-11,
+    "sec": 121.27
+   },
+   "change_pct": 5.928254437869818
+  },
+  {
+   "delta": 1e-14,
+   "seed": 2,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 27006,
+    "relres": 9.342208619156589e-11,
+    "sec": 172.66
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 27170,
+    "relres": 7.742775221221999e-11,
+    "sec": 114.88
+   },
+   "change_pct": 0.6072724579722966
+  },
+  {
+   "delta": 1e-14,
+   "seed": 3,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 31704,
+    "relres": 9.918565875532997e-11,
+    "sec": 202.88
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 26482,
+    "relres": 8.488884221315296e-11,
+    "sec": 112.1
+   },
+   "change_pct": -16.47110774665658
+  },
+  {
+   "delta": 1e-14,
+   "seed": 4,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 23169,
+    "relres": 8.871208276139279e-11,
+    "sec": 148.79
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 27802,
+    "relres": 9.7440598810713e-11,
+    "sec": 118.12
+   },
+   "change_pct": 19.996547110362982
+  },
+  {
+   "delta": 1e-14,
+   "seed": 5,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 25193,
+    "relres": 9.486868857056552e-11,
+    "sec": 161.53
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 25872,
+    "relres": 8.433175307272889e-11,
+    "sec": 109.91
+   },
+   "change_pct": 2.6951931091969916
+  },
+  {
+   "delta": 1e-14,
+   "seed": 6,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 25187,
+    "relres": 9.142977176559566e-11,
+    "sec": 161.5
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 30295,
+    "relres": 9.49229549475864e-11,
+    "sec": 128.68
+   },
+   "change_pct": 20.280303331083505
+  },
+  {
+   "delta": 1e-14,
+   "seed": 7,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 24080,
+    "relres": 8.589417427958377e-11,
+    "sec": 154.4
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 33823,
+    "relres": 9.244831008319142e-11,
+    "sec": 143.7
+   },
+   "change_pct": 40.46096345514951
+  },
+  {
+   "delta": 1e-14,
+   "seed": 8,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 27796,
+    "relres": 9.462860398745327e-11,
+    "sec": 178.27
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 26717,
+    "relres": 9.405038131178953e-11,
+    "sec": 113.36
+   },
+   "change_pct": -3.881853504101307
+  },
+  {
+   "delta": 1e-14,
+   "seed": 9,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 39724,
+    "relres": 9.874652760056082e-11,
+    "sec": 254.38
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 24160,
+    "relres": 9.722593345067175e-11,
+    "sec": 102.49
+   },
+   "change_pct": -39.180344376195755
+  },
+  {
+   "delta": 1e-14,
+   "seed": 10,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 24812,
+    "relres": 8.334799256462239e-11,
+    "sec": 158.88
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 30206,
+    "relres": 9.494505772744555e-11,
+    "sec": 127.93
+   },
+   "change_pct": 21.73948089634048
+  },
+  {
+   "delta": 1e-14,
+   "seed": 11,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 21643,
+    "relres": 8.839654549996743e-11,
+    "sec": 138.42
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 26145,
+    "relres": 9.172939790270493e-11,
+    "sec": 110.93
+   },
+   "change_pct": 20.80118283047636
+  },
+  {
+   "delta": 1e-14,
+   "seed": 12,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 29911,
+    "relres": 9.986127306897704e-11,
+    "sec": 191.94
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 24260,
+    "relres": 9.996807568140682e-11,
+    "sec": 103.03
+   },
+   "change_pct": -18.89271505466217
+  },
+  {
+   "delta": 1e-14,
+   "seed": 13,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 23744,
+    "relres": 8.93430930322132e-11,
+    "sec": 152.19
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 26449,
+    "relres": 9.485539458810507e-11,
+    "sec": 112.1
+   },
+   "change_pct": 11.392351752021558
+  },
+  {
+   "delta": 1e-14,
+   "seed": 14,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 29366,
+    "relres": 9.967674991886167e-11,
+    "sec": 187.69
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 25713,
+    "relres": 9.899926965903019e-11,
+    "sec": 108.89
+   },
+   "change_pct": -12.439555949056736
+  },
+  {
+   "delta": 1e-14,
+   "seed": 15,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 26069,
+    "relres": 9.266210178988266e-11,
+    "sec": 167.12
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 28234,
+    "relres": 9.17927974547967e-11,
+    "sec": 119.91
+   },
+   "change_pct": 8.304883194598943
+  },
+  {
+   "delta": 1e-14,
+   "seed": 16,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 33239,
+    "relres": 8.60592671053227e-11,
+    "sec": 213.12
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 25644,
+    "relres": 8.748243593348026e-11,
+    "sec": 108.65
+   },
+   "change_pct": -22.849664550678416
+  },
+  {
+   "delta": 1e-14,
+   "seed": 17,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 35441,
+    "relres": 9.05060989269621e-11,
+    "sec": 226.87
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 26739,
+    "relres": 9.642683433425861e-11,
+    "sec": 113.31
+   },
+   "change_pct": -24.55348325385852
+  },
+  {
+   "delta": 1e-14,
+   "seed": 18,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 23978,
+    "relres": 9.234638347725172e-11,
+    "sec": 153.5
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 26468,
+    "relres": 8.622110879282067e-11,
+    "sec": 112.18
+   },
+   "change_pct": 10.384519142547344
+  },
+  {
+   "delta": 1e-14,
+   "seed": 19,
+   "fp64-uniform-BJAC PCG": {
+    "iters": 25349,
+    "relres": 9.990943241690359e-11,
+    "sec": 162.26
+   },
+   "fp32-fMP-BJAC PCG": {
+    "iters": 26750,
+    "relres": 9.79507759486982e-11,
+    "sec": 113.34
+   },
+   "change_pct": 5.526845240443401
+  }
+ ]
+}

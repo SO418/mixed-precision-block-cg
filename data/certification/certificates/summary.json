@@ -1,0 +1,118 @@
+{
+  "status": "exact rational checks of stored traces",
+  "arithmetic": "upward rounding to 128 significant bits; integer square-root enclosures",
+  "scope": "D=I; symmetric strictly diagonally dominant A, exactly representable in the inner format; no overflow",
+  "python": "3.12.13",
+  "numpy": "2.0.2",
+  "cases": [
+    {
+      "name": "exact_correlated_s3_fp32",
+      "steps": 18,
+      "primitive_checks": 71928,
+      "exact_squared_comparisons": 394,
+      "actual_error_ratio_display": 1.7314449625436944e-16,
+      "U_ratio_display": 1.1018064280375174e-14,
+      "baseline_ratio_display": 6.381932011243528e-15,
+      "max_eta_ratio_display": 37.82150495010923,
+      "input_sha256": "7e8122200c92890b84dd39a33a1adabb5fb8d67517861b81ab3ffd5787c1b8b0",
+      "certificate_sha256": "e1dee22701109600856b4423c8aacbe2774f763fbabcb45371e72f4a219b6b91"
+    },
+    {
+      "name": "inner_stagnation_s3_fp16",
+      "steps": 18,
+      "primitive_checks": 324648,
+      "exact_squared_comparisons": 394,
+      "actual_error_ratio_display": 7.485625031408522e-09,
+      "U_ratio_display": 2.9389689977166368e-08,
+      "baseline_ratio_display": 7.890659537783307e-09,
+      "max_eta_ratio_display": 22.297428962020998,
+      "input_sha256": "b21772cdc912198bf8c18ad1cf9fa37914c5cfbfde0f3665c4d325588130badc",
+      "certificate_sha256": "ec1cc4be14de61ef1bea77d7b8580c87062fbe1041a56f9b4db5c2299328b6a7"
+    },
+    {
+      "name": "near_correlated_s3_fp16",
+      "steps": 18,
+      "primitive_checks": 71928,
+      "exact_squared_comparisons": 394,
+      "actual_error_ratio_display": 1.4056014529252337e-08,
+      "U_ratio_display": 3.9674251877394445e-08,
+      "baseline_ratio_display": 1.5394154689532628e-08,
+      "max_eta_ratio_display": 24.26409463816417,
+      "input_sha256": "395d90730573071793ffd0d1fa3d05240df1fadbafa7393ff480d806d3dc0b1e",
+      "certificate_sha256": "6945709fbb746df6d0ebb9d1a7782f184c1427e5db5ccca4c10c328a39dcaf72"
+    },
+    {
+      "name": "near_correlated_s3_fp32",
+      "steps": 18,
+      "primitive_checks": 71928,
+      "exact_squared_comparisons": 394,
+      "actual_error_ratio_display": 2.41524112975518e-16,
+      "U_ratio_display": 1.1018019927180976e-14,
+      "baseline_ratio_display": 6.381906529398642e-15,
+      "max_eta_ratio_display": 33.46430508652687,
+      "input_sha256": "6753fb0fb6a4470eb5f8083d5b980dcfdc4e9173d428b67005747d07b26aceb8",
+      "certificate_sha256": "4c45c6367a6f115a0c33de909ab6ddb8f5d11b478c08fb69b2cf7bd1b74189ae"
+    },
+    {
+      "name": "nonzero_initial_s3_fp32",
+      "steps": 18,
+      "primitive_checks": 71928,
+      "exact_squared_comparisons": 394,
+      "actual_error_ratio_display": 1.5356112389563412e-16,
+      "U_ratio_display": 1.1823890114869846e-14,
+      "baseline_ratio_display": 6.843717888005557e-15,
+      "max_eta_ratio_display": 35.29683837153774,
+      "input_sha256": "0e1afaddfb1bf66451549dc6f831c058c30a5b7eae4c7c959479056462071929",
+      "certificate_sha256": "0df52afd6894fdd472216ce8dfa14f7de746477f64259c982e13a723a9b27c54"
+    },
+    {
+      "name": "random_s3_fp16",
+      "steps": 18,
+      "primitive_checks": 71928,
+      "exact_squared_comparisons": 394,
+      "actual_error_ratio_display": 1.3278729153165731e-08,
+      "U_ratio_display": 2.9706707722542455e-08,
+      "baseline_ratio_display": 1.4333440504681012e-08,
+      "max_eta_ratio_display": 19.101358222238307,
+      "input_sha256": "c05a8cd167c64aaa064974be03a7096c356cde038b927c2715f5bac384bb674e",
+      "certificate_sha256": "bbf9eb286e39c74849cb02a014970f133f81bf4e70f3db5b8dfff35874e71fbb"
+    },
+    {
+      "name": "random_s3_fp32",
+      "steps": 18,
+      "primitive_checks": 71928,
+      "exact_squared_comparisons": 394,
+      "actual_error_ratio_display": 1.9750026396737775e-16,
+      "U_ratio_display": 1.1502052885082441e-14,
+      "baseline_ratio_display": 6.659138916605119e-15,
+      "max_eta_ratio_display": 31.851768804082102,
+      "input_sha256": "1ed07898f26ca8d140daf35143a5d37227943a1a867f32b58e60b09015cf3584",
+      "certificate_sha256": "b6024e4fdec38b5cd2b705897a5d466ab8a9129f03a0d7072005a063be2396f3"
+    },
+    {
+      "name": "single_rhs_fp32",
+      "steps": 18,
+      "primitive_checks": 25704,
+      "exact_squared_comparisons": 394,
+      "actual_error_ratio_display": 1.6452879614955343e-16,
+      "U_ratio_display": 7.896973906993243e-15,
+      "baseline_ratio_display": 4.586257221626176e-15,
+      "max_eta_ratio_display": 29.664043080767915,
+      "input_sha256": "7910948f1e4be1ce495e22a904f6bc3b2e92a9a05d870bb0df8c61cc18889e45",
+      "certificate_sha256": "ff67824032dc8b102f5fccebdd07726ce53abe7c2ebb77988afd874310900447"
+    },
+    {
+      "name": "underflow_s3_fp16",
+      "steps": 18,
+      "primitive_checks": 71928,
+      "exact_squared_comparisons": 394,
+      "actual_error_ratio_display": 0.9242548069699259,
+      "U_ratio_display": 297.067009929647,
+      "baseline_ratio_display": 0.9742157638498666,
+      "max_eta_ratio_display": 341.9085458522975,
+      "input_sha256": "b990dae428aa68107f1354edc5cc1bbafbb53100249efc033e50d071a92d710b",
+      "certificate_sha256": "bb92b8956420f1e78e94764b597a6c736453a2e06affda31cbabf03843578e12"
+    }
+  ],
+  "source_sha256": "66e43640a8b1723a45b48d09f6357846cb42b57cb88ca9e9e3a8be1742eab251"
+}

@@ -1,0 +1,5 @@
+id,groups,family,n,rhs,corr_exp,rhs_exp,seed,precision,execution,solver_status,updates,chi,final_error_A,final_bound_A,final_bound_over_error,finite_bound_steps,first_unavailable_step,bound_comparison_flags,call_comparison_flags,first_target,diagnostic_seconds,strict_certificate
+1b9f2ddfed40a85f,smoke,Const,64,2,,0,301,bf16,completed,maxit,6,0.22425214677835367,1.3440529215669467e-09,0.007899520203492109,5877387.770031075,6,,0,0,,0.8279710002243519,False
+850d81d5b39d5dc7,smoke,Const,64,2,,0,301,fp32,completed,maxit,6,0.22425214677835367,3.747639521165549e-10,0.005888558293744786,15712712.656828297,6,,0,0,,0.8222873341292143,False
+c6a63f5328caefef,smoke,Const,64,2,,0,301,fp64,completed,maxit,6,0.22425214677835367,3.747627871021916e-10,0.005888527726332887,15712679.93779538,6,,0,0,,0.8155062142759562,False
+eb71e2edda5ec569,smoke,Const,64,2,,0,301,fp16,completed,maxit,6,0.22425214677835367,2.4550710924770534e-07,0.0062170629873691515,25323.35216857782,6,,0,0,,0.8181318175047636,False

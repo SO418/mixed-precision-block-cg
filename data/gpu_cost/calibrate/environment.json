@@ -1,0 +1,17 @@
+{
+  "gpu_checks": "passed",
+  "gpu": "NVIDIA B300 SXM6 AC",
+  "cupy": "14.0.1",
+  "runtime": 13000,
+  "driver": 13000,
+  "python": "3.12.13",
+  "numpy": "2.2.6",
+  "args": {
+    "out": "results/calibrate",
+    "device": 0,
+    "g": 16,
+    "block_size": 32,
+    "t": 4,
+    "p": 2
+  }
+}

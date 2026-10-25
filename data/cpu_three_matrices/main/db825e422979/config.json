@@ -1,0 +1,18 @@
+{
+  "groups": [
+    "C"
+  ],
+  "seed": 302,
+  "inside": "7/16",
+  "cross": "1/64",
+  "s": 4,
+  "correlation_exponent": null,
+  "scale_exponent": -12,
+  "precision": "fp32",
+  "n": 32,
+  "blocksize": 8,
+  "p": 2,
+  "t": 3,
+  "steps": 60,
+  "id": "db825e422979"
+}

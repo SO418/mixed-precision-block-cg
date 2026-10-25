@@ -1,0 +1,5 @@
+id,groups,family,n,rhs,corr_exp,rhs_exp,seed,precision,execution,solver_status,updates,chi,final_error_A,final_bound_A,final_bound_over_error,finite_bound_steps,first_unavailable_step,bound_comparison_flags,call_comparison_flags,first_target,diagnostic_seconds,strict_certificate
+af1ce1127edebab0,pilot,Const,4096,4,,0,301,bf16,completed,maxit,40,0.5752221108759868,5.633497156998421e-14,1.521801206656614e-07,2701343.7022260674,40,,0,0,16,6.454610999673605,False
+d9bc8ba52d1a2f9c,pilot,Const,4096,4,,0,301,fp32,completed,maxit,40,0.5752221108759868,5.587788163049856e-14,1.3127880815239524e-07,2349387.706221531,40,,0,0,16,6.441099524497986,False
+db5d06cc16bda0a3,pilot,Const,4096,4,,0,301,fp64,completed,maxit,40,0.5752221108759868,5.6470517660150846e-14,1.312784900814746e-07,2324726.1672281954,40,,0,0,16,6.774859393015504,False
+ef3d22efc3aebaf4,pilot,Const,4096,4,,0,301,fp16,completed,numerical_breakdown,26,0.5752221108759868,2.557095292506586e-06,0.0016113213607340364,630.1373927893562,26,,0,0,,4.3672075141221285,False

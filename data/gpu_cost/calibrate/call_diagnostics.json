@@ -1,0 +1,1202 @@
+[
+  {
+    "kind": "Const",
+    "policy": "fp32",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.4990463444590428e-05,
+      "proxy_max": 1.4990463444590428e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.125226850614607e-08,
+      7.046263244601871e-08,
+      7.124358847701795e-08,
+      7.219698245927525e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "fp32",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.4990463444590428e-05,
+      "proxy_max": 1.4990463444590428e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.145611166924417e-08,
+      7.147886068353053e-08,
+      7.277174089238654e-08,
+      6.938276252085087e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "fp32",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.4990463444590428e-05,
+      "proxy_max": 1.4990463444590428e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.058897144179562e-08,
+      7.037128717042909e-08,
+      7.207308135667805e-08,
+      7.079217054042324e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "fp32",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.4990463444590428e-05,
+      "proxy_max": 1.4990463444590428e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.274049882002171e-08,
+      7.155686043470962e-08,
+      7.22547566587009e-08,
+      7.265028789393523e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "fp16",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.12280187654442301,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.00019972217191765407,
+      0.00019875305486587107,
+      0.00021685964468406461,
+      0.00020662903078353013
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "fp16",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.12280187654442301,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.0003779118561001676,
+      0.00037620156471881424,
+      0.0003735156416084739,
+      0.00038530100289694755
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "fp16",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.12280187654442301,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.9976808207262124,
+      0.9947614968646467,
+      0.9934984341171783,
+      0.9939352627660988
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "fp16",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.12280187654442301,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "weighted",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.234375,
+      "proxy_rms": 0.05945120428940303,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      8.85664821591703e-05,
+      9.703146374913347e-05,
+      0.00010805881922145936,
+      0.00010371289011753315
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "weighted",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.234375,
+      "proxy_rms": 0.05945120428940303,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.00018113654245604973,
+      0.0001841658138315591,
+      0.00017328093399340534,
+      0.00019279067056223177
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "weighted",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.234375,
+      "proxy_rms": 0.05945120428940303,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.47490713308781596,
+      0.49043736702027124,
+      0.5053990823065978,
+      0.4860638273082468
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "weighted",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.234375,
+      "proxy_rms": 0.05945120428940303,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.47672979372637453,
+      0.4947409017270508,
+      0.510708045840895,
+      0.4902647642143185
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "worst",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.4990463444590428e-05,
+      "proxy_max": 1.4990463444590428e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.125226850614607e-08,
+      7.046263244601871e-08,
+      7.124358847701795e-08,
+      7.219698245927525e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "worst",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.4990463444590428e-05,
+      "proxy_max": 1.4990463444590428e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.145611166924417e-08,
+      7.147886068353053e-08,
+      7.277174089238654e-08,
+      6.938276252085087e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "worst",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.4990463444590428e-05,
+      "proxy_max": 1.4990463444590428e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.058897144179562e-08,
+      7.037128717042909e-08,
+      7.207308135667805e-08,
+      7.079217054042324e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "worst",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.4990463444590428e-05,
+      "proxy_max": 1.4990463444590428e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.274049882002171e-08,
+      7.155686043470962e-08,
+      7.22547566587009e-08,
+      7.265028789393523e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "random_matched",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.234375,
+      "proxy_rms": 0.05945120428940304,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      9.545787992188792e-05,
+      9.799571755821386e-05,
+      9.803828275959678e-05,
+      9.31616095881199e-05
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "random_matched",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.234375,
+      "proxy_rms": 0.05945120428940304,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.00017596704107658863,
+      0.000178251244805291,
+      0.0001756547345920658,
+      0.00019180086640106973
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "random_matched",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.234375,
+      "proxy_rms": 0.05945120428940304,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.5236269170740707,
+      0.5115093573624704,
+      0.4988146539353355,
+      0.488214178492974
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Const",
+    "policy": "random_matched",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.234375,
+      "proxy_rms": 0.05945120428940304,
+      "proxy_max": 0.122801876544423,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.5230130193074812,
+      0.5195632999500658,
+      0.5032232279038039,
+      0.48821417930533006
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "fp32",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.5815912077078526e-05,
+      "proxy_max": 2.9100367701190662e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      6.939280960580911e-08,
+      7.033656171465979e-08,
+      6.958461413393075e-08,
+      7.127414949941926e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "fp32",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.5815912077078526e-05,
+      "proxy_max": 2.9100367701190662e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.04822566940532e-08,
+      7.136684333427331e-08,
+      7.210482478613739e-08,
+      6.959739745115995e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "fp32",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.5815912077078526e-05,
+      "proxy_max": 2.9100367701190662e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.296899930596578e-08,
+      7.051396778175796e-08,
+      7.015035859510026e-08,
+      7.022894039507374e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "fp32",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.5815912077078526e-05,
+      "proxy_max": 2.9100367701190662e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.291164353036615e-08,
+      7.021884969077892e-08,
+      7.289027516253357e-08,
+      7.25107428392856e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "fp16",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.12959009686721668,
+      "proxy_max": 0.2386889207801568,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.0001883098939259646,
+      0.00020137455346592238,
+      0.0002144574458612291,
+      0.00020302804404341332
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "fp16",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.12959009686721668,
+      "proxy_max": 0.2386889207801568,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.0003800781668390832,
+      0.00037057827674332735,
+      0.0003604313694696978,
+      0.00036795674052245825
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "fp16",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.12959009686721668,
+      "proxy_max": 0.2386889207801568,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.9970799158714385,
+      0.9954005809070501,
+      0.9938918761223701,
+      0.993562305545668
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "fp16",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.12959009686721668,
+      "proxy_max": 0.2386889207801568,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "weighted",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.2734375,
+      "proxy_rms": 0.059569732966064014,
+      "proxy_max": 0.11901463012665064,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      9.569588363728327e-05,
+      0.00010105929103087303,
+      0.00010199494033649485,
+      0.00010116889422095175
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "weighted",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.2734375,
+      "proxy_rms": 0.059569732966064014,
+      "proxy_max": 0.11901463012665064,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.00019662413691362094,
+      0.0001850755982140939,
+      0.00019120062731024396,
+      0.0001827936230700582
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "weighted",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.2734375,
+      "proxy_rms": 0.059569732966064014,
+      "proxy_max": 0.11901463012665064,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.5328438045472229,
+      0.5352065401016183,
+      0.5133480511277958,
+      0.5203342489471341
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "weighted",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.2734375,
+      "proxy_rms": 0.059569732966064014,
+      "proxy_max": 0.11901463012665064,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.5335742074663303,
+      0.5460595119961755,
+      0.5143511465537948,
+      0.5204291832844085
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "worst",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.5815912077078526e-05,
+      "proxy_max": 2.9100367701190662e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      6.939280960580911e-08,
+      7.033656171465979e-08,
+      6.958461413393075e-08,
+      7.127414949941926e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "worst",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.5815912077078526e-05,
+      "proxy_max": 2.9100367701190662e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.04822566940532e-08,
+      7.136684333427331e-08,
+      7.210482478613739e-08,
+      6.959739745115995e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "worst",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.5815912077078526e-05,
+      "proxy_max": 2.9100367701190662e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.296899930596578e-08,
+      7.051396778175796e-08,
+      7.015035859510026e-08,
+      7.022894039507374e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "worst",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 1.5815912077078526e-05,
+      "proxy_max": 2.9100367701190662e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.291164353036615e-08,
+      7.021884969077892e-08,
+      7.289027516253357e-08,
+      7.25107428392856e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "random_matched",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.2734375,
+      "proxy_rms": 0.07148842824510088,
+      "proxy_max": 0.2386889207801568,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.00010829215852192623,
+      0.00010825547637110418,
+      0.00010331271155368574,
+      9.398773261509918e-05
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "random_matched",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.2734375,
+      "proxy_rms": 0.07148842824510088,
+      "proxy_max": 0.2386889207801568,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.00019283951056027975,
+      0.00018924546411809188,
+      0.00018638630516609612,
+      0.00018995467447022654
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "random_matched",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.2734375,
+      "proxy_rms": 0.07148842824510088,
+      "proxy_max": 0.2386889207801568,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.5661978914643208,
+      0.5525401360760795,
+      0.5376910832152859,
+      0.5183803896917369
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Dis",
+    "policy": "random_matched",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.2734375,
+      "proxy_rms": 0.07148842824510088,
+      "proxy_max": 0.2386889207801568,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.5678918836997645,
+      0.5601396967526628,
+      0.5433256127001153,
+      0.5215078177198428
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "fp32",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 4.11762715100419e-05,
+      "proxy_max": 4.117627151004191e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.778717467416578e-08,
+      7.461146949314519e-08,
+      7.695372006311242e-08,
+      7.523651474307827e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "fp32",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 4.11762715100419e-05,
+      "proxy_max": 4.117627151004191e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.626450026954967e-08,
+      7.676668298494803e-08,
+      7.591565448125175e-08,
+      7.598191417506737e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "fp32",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 4.11762715100419e-05,
+      "proxy_max": 4.117627151004191e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.645746859052053e-08,
+      7.75125499050748e-08,
+      7.505956119845334e-08,
+      7.649497880172423e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "fp32",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 4.11762715100419e-05,
+      "proxy_max": 4.117627151004191e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.760075150890152e-08,
+      7.766135312301234e-08,
+      7.625880257847007e-08,
+      7.544053197510838e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "fp16",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.33203870364636323,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.0002345917184239369,
+      0.00023952353517325755,
+      0.0002452025673834086,
+      0.00024253689888173078
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "fp16",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.33203870364636323,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.00033618994817655385,
+      0.00033336698959903204,
+      0.0003325943465191966,
+      0.0003275773170229476
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "fp16",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.33203870364636323,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.9983670322010777,
+      0.996261105156777,
+      0.9890391092224297,
+      0.9918178150827456
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "fp16",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 1.0,
+      "proxy_rms": 0.33203870364636323,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": false,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "weighted",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.03125,
+      "proxy_rms": 0.058696718732609655,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      5.030649743953141e-05,
+      3.389816686291109e-05,
+      4.384214263759505e-05,
+      4.7138430140111146e-05
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "weighted",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.03125,
+      "proxy_rms": 0.058696718732609655,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      5.7313654108947005e-05,
+      6.18724503312958e-05,
+      5.783303757446449e-05,
+      6.337162196347759e-05
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "weighted",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.03125,
+      "proxy_rms": 0.058696718732609655,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.1889363495672296,
+      0.15023184894167213,
+      0.1825167776081518,
+      0.19394994007766503
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "weighted",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.03125,
+      "proxy_rms": 0.058696718732609655,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.192640715779776,
+      0.15433256450800767,
+      0.18251677832900653,
+      0.19394994001197643
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "worst",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 4.11762715100419e-05,
+      "proxy_max": 4.117627151004191e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.778717467416578e-08,
+      7.461146949314519e-08,
+      7.695372006311242e-08,
+      7.523651474307827e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "worst",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 4.11762715100419e-05,
+      "proxy_max": 4.117627151004191e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.626450026954967e-08,
+      7.676668298494803e-08,
+      7.591565448125175e-08,
+      7.598191417506737e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "worst",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 4.11762715100419e-05,
+      "proxy_max": 4.117627151004191e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.645746859052053e-08,
+      7.75125499050748e-08,
+      7.505956119845334e-08,
+      7.649497880172423e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "worst",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.0,
+      "proxy_rms": 4.11762715100419e-05,
+      "proxy_max": 4.117627151004191e-05,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      7.760075150890152e-08,
+      7.766135312301234e-08,
+      7.625880257847007e-08,
+      7.544053197510838e-08
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "random_matched",
+    "scale": 1.0,
+    "selection": {
+      "fp16_fraction": 0.03125,
+      "proxy_rms": 0.058696718732609655,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      3.654650755709797e-05,
+      3.9944373099087835e-05,
+      3.3907553311140374e-05,
+      3.493459796035151e-05
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "random_matched",
+    "scale": 0.0001,
+    "selection": {
+      "fp16_fraction": 0.03125,
+      "proxy_rms": 0.058696718732609655,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      5.728394381121841e-05,
+      5.9504677096568997e-05,
+      6.059276556069817e-05,
+      5.637924168974924e-05
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.00048828125,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "random_matched",
+    "scale": 1e-08,
+    "selection": {
+      "fp16_fraction": 0.03125,
+      "proxy_rms": 0.058696718732609655,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.17946048742337448,
+      0.1949500647876677,
+      0.16984978527258038,
+      0.17401134790420783
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 0.99749755859375,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  },
+  {
+    "kind": "Ani",
+    "policy": "random_matched",
+    "scale": 1e-12,
+    "selection": {
+      "fp16_fraction": 0.03125,
+      "proxy_rms": 0.058696718732609655,
+      "proxy_max": 0.3320387036463633,
+      "proxy_target_met": true,
+      "certificate": false
+    },
+    "relative_difference_from_fp64_per_column": [
+      0.1802534654199343,
+      0.1949500652609079,
+      0.1698497847742936,
+      0.17401134883054753
+    ],
+    "input_fraction_nonzero_rounded_to_half_zero": 1.0,
+    "note": "Euclidean comparison with rounded FP64 BJAC, not an exact reference or energy-norm certificate"
+  }
+]

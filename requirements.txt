@@ -1,0 +1,7 @@
+numpy==2.0.2
+mpmath==1.3.0
+matplotlib
+# GPU experiments (tested with CuPy 14.0.1, CUDA 13.0):
+# cupy-cuda13x
+# rhs_perturbation only:
+# torch

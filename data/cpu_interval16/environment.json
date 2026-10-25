@@ -1,0 +1,15 @@
+{
+  "python": "3.12.3",
+  "numpy": "2.5.2",
+  "platform": "Linux-6.6.0-102.007-x86_64-with-glibc2.39",
+  "arithmetic": "CPU explicit target-format rounding; BF16 via FP32; no GPU speed measurement",
+  "source_sha256": {
+    "run.py": "182bc00863c9d1b57577f25b7c4da8f02700b3b3b278fc2e1961a7f9c23b49a9",
+    "plot.py": "d8325e7f3d390cb633a2df210e07f0effa01c2c5150e281d11ed6601807f5e29",
+    "pack_results.py": "90beb75cdf1e9c04c6188b382c8c6ccc3bd2062d219919b8c604b852f0617419",
+    "verify_qr_bjac.py": "b615d062352c34f5241b97118d0040682636701edbd0a45961d7c4d4977d84bb",
+    "certify_budgets.py": "37a00ba02eff98d9cf114ee0caeb821a1c6bbf635d8bf8c1fee4c4b38808402f",
+    "self_test.py": "f1de35e29d304f5b8f09994b1254bad38a5b46eed7dd69cb119a1b7b4c1c871b",
+    "formats.py": "c73244141691447fa9b1e77d871baf76cab08893e83e518d2414800bd0f3c603"
+  }
+}

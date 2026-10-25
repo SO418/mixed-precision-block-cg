@@ -1,0 +1,122 @@
+[
+  {
+    "matrix": "A1",
+    "inside": "1/4",
+    "formats": {
+      "fp64": {
+        "case_id": "1ce2e8826c67",
+        "actual_error_absolute": 2.436305991081615e-15,
+        "theoretical_bound_absolute": 5.990041781988885e-13,
+        "bound_over_error": 245.8657411637183,
+        "relative_error": 1.9278490255662523e-16,
+        "relative_bound": 4.739920295225987e-14
+      },
+      "fp32": {
+        "case_id": "1f5c09e928ce",
+        "actual_error_absolute": 2.4530272335054514e-15,
+        "theoretical_bound_absolute": 5.99004178156825e-13,
+        "bound_over_error": 244.1897790514252,
+        "relative_error": 1.9410805453470407e-16,
+        "relative_bound": 4.739920294893139e-14
+      },
+      "fp16": {
+        "case_id": "d35d4ebd416f",
+        "actual_error_absolute": 1.3381092497021266e-07,
+        "theoretical_bound_absolute": 4.674648143719758e-07,
+        "bound_over_error": 3.493472707673436,
+        "relative_error": 1.0588459013697905e-08,
+        "relative_bound": 3.6990492580672426e-08
+      },
+      "bf16": {
+        "case_id": "844673949912",
+        "actual_error_absolute": 2.2939494948744593e-15,
+        "theoretical_bound_absolute": 5.993871486723689e-13,
+        "bound_over_error": 261.2904730516621,
+        "relative_error": 1.8152023245768782e-16,
+        "relative_bound": 4.742950740731693e-14
+      }
+    },
+    "condition_number_fp64": 2.777400946335564,
+    "initial_energy_error": 12.637431452216635
+  },
+  {
+    "matrix": "A2",
+    "inside": "3/8",
+    "formats": {
+      "fp64": {
+        "case_id": "68eaa0e48975",
+        "actual_error_absolute": 3.621130400088064e-15,
+        "theoretical_bound_absolute": 1.4612537348555335e-12,
+        "bound_over_error": 403.53524270211216,
+        "relative_error": 2.589681521168326e-16,
+        "relative_bound": 1.0450277611658355e-13
+      },
+      "fp32": {
+        "case_id": "4191d4c880fe",
+        "actual_error_absolute": 3.039383994755824e-15,
+        "theoretical_bound_absolute": 1.461253730492169e-12,
+        "bound_over_error": 480.7729898602569,
+        "relative_error": 2.1736407412344242e-16,
+        "relative_bound": 1.0450277580453391e-13
+      },
+      "fp16": {
+        "case_id": "302748d15692",
+        "actual_error_absolute": 1.641526102626594e-07,
+        "theoretical_bound_absolute": 9.6616662960776e-07,
+        "bound_over_error": 5.885782919088547,
+        "relative_error": 1.1739510442330851e-08,
+        "relative_bound": 6.909621003993254e-08
+      },
+      "bf16": {
+        "case_id": "5d0dc4c49d06",
+        "actual_error_absolute": 3.365204326979484e-15,
+        "theoretical_bound_absolute": 1.4611061538880056e-12,
+        "bound_over_error": 434.1805168185597,
+        "relative_error": 2.4066538615462515e-16,
+        "relative_bound": 1.044922217409534e-13
+      }
+    },
+    "condition_number_fp64": 5.789964882700273,
+    "initial_energy_error": 13.982917862635107
+  },
+  {
+    "matrix": "A3",
+    "inside": "7/16",
+    "formats": {
+      "fp64": {
+        "case_id": "97d5bced7f4c",
+        "actual_error_absolute": 3.989012844800688e-15,
+        "theoretical_bound_absolute": 4.827813108754719e-12,
+        "bound_over_error": 1210.2776542941772,
+        "relative_error": 2.567906901611869e-16,
+        "relative_bound": 3.107880341328642e-13
+      },
+      "fp32": {
+        "case_id": "8ae283f2469f",
+        "actual_error_absolute": 4.052158268175411e-15,
+        "theoretical_bound_absolute": 4.827813101043809e-12,
+        "bound_over_error": 1191.4177042294195,
+        "relative_error": 2.6085564494568965e-16,
+        "relative_bound": 3.1078803363647817e-13
+      },
+      "fp16": {
+        "case_id": "196c8856ec20",
+        "actual_error_absolute": 1.727677057254765e-07,
+        "theoretical_bound_absolute": 2.719301059425132e-06,
+        "bound_over_error": 15.73963749768161,
+        "relative_error": 1.1121833926565528e-08,
+        "relative_bound": 1.7505363431355828e-07
+      },
+      "bf16": {
+        "case_id": "52f6f61a0a5e",
+        "actual_error_absolute": 6.0521373328118965e-15,
+        "theoretical_bound_absolute": 4.828887940138985e-12,
+        "bound_over_error": 797.8814218175424,
+        "relative_error": 3.8960328861029393e-16,
+        "relative_bound": 3.108572258611716e-13
+      }
+    },
+    "condition_number_fp64": 10.293448753335579,
+    "initial_energy_error": 15.53410227721571
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "groups": [
+    "B"
+  ],
+  "seed": 301,
+  "inside": "7/16",
+  "cross": "1/64",
+  "s": 1,
+  "correlation_exponent": null,
+  "scale_exponent": 0,
+  "precision": "fp16",
+  "n": 32,
+  "blocksize": 8,
+  "p": 2,
+  "t": 3,
+  "steps": 60,
+  "id": "a492b2355e1c"
+}
